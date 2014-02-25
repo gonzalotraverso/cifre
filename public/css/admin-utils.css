@@ -1,0 +1,72 @@
+/* Dialogs */
+.aw-container{
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-out; 
+	-moz-transition: opacity 0.5s ease-out; 
+	-o-transition: opacity 0.5s ease-out; 
+	transition: opacity 0.5s ease-out; 
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.aw-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.aw-positioning{
+  	background-color: #fff;
+	min-width: 200px;
+	/*border: 1px #dddddd solid;*/
+	padding: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.aw-container .aw-buttons{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.aw-container .aw-buttons button{
+	display: inline-block;
+	padding: 6px;
+}
+
+.aw-container.active{
+	display: inline;
+	opacity: 1;
+}
+
+
+.ga-new-pass-container{
+	padding: 15px;
+	background-color: #f8f8f8;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-clip: padding-box;
+	display: inline-block;
+}
+
+.ga-new-pass{
+}
+
+.ga-img-edit-cont input{
+	display: none;	
+}
+
+.ga-img-edit-cancel{
+	display: none;
+}
